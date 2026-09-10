@@ -1,0 +1,19 @@
+{
+  "data_dir": "data_iv64",
+  "out_root": "runs_iv_delta",
+  "batch_size": 8192,
+  "epochs": 32,
+  "lr": 0.0003,
+  "weight_decay": 5e-05,
+  "grad_clip_norm": 1.0,
+  "d_model": 192,
+  "n_heads": 8,
+  "n_layers": 4,
+  "dim_feedforward": 384,
+  "dropout": 0.1,
+  "use_amp": false,
+  "num_workers": 6,
+  "max_steps_per_epoch": null,
+  "log_interval": 50,
+  "seed": 42
+}
